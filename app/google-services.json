@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "49148160755",
+    "firebase_url": "https://journal-app-dc3be.firebaseio.com",
+    "project_id": "journal-app-dc3be",
+    "storage_bucket": "journal-app-dc3be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49148160755:android:be5afdcb810edb3b",
+        "android_client_info": {
+          "package_name": "com.example.aloranking.journalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49148160755-qkbiokf91l0ua4b83a3hgo93esoumei1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBjCbK4VmDvWPdbPpzrZXq0Zcl8VRula4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

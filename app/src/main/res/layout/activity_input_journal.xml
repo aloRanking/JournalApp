@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InputJournal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feeling ?"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_marginStart="5dp" />
+
+    <EditText
+        android:id="@+id/how_are_u_feeln_editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="How are you feeling"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's on your mind?"
+        android:textSize="30sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="2dp"/>
+
+    <EditText
+        android:id="@+id/whats_on_ur_mind_editText"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:padding="2dp"
+        android:text="SA" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
